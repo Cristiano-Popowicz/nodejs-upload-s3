@@ -4,6 +4,16 @@ Este projeto demonstra como criar uma aplicação Node.js para fazer upload de i
 
 ## Configuração
 
+### Incluir pasta vazia
+
+Antes de executar o projeto, crie uma pasta vazia chamada `uploads` na raiz do projeto. Isso é necessário para que as imagens enviadas pelo formulário de upload sejam armazenadas localmente antes de serem enviadas para o Amazon S3.
+
+Você pode criar a pasta manualmente ou usar o seguinte comando no terminal:
+
+\`\`\`bash
+mkdir uploads
+\`\`\`
+
 ### Dependências
 
 Instale as dependências necessárias:
